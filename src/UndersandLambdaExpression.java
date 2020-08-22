@@ -47,7 +47,7 @@ public class UndersandLambdaExpression {
 	
 	//in Java 7
 	
-	{
+	public void m1(){
 		if(a>0)
 		{System.out.println(a*a);}
 	}
