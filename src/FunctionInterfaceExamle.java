@@ -22,8 +22,13 @@ public class FunctionInterfaceExamle {
 		inter1 i3 = ( a, b) -> System.out.println(a*b);
 		
 		i3.product(10, 20);
+
 		
+		/* Example of Multiple line implementing */
 		
+		inter2 i4 = (a) ->{if(a>0) System.out.println(a*a);};
+		 
+		i4.square(5);
 
 	}
 
@@ -37,4 +42,9 @@ interface inter1{
 
 
 
+interface inter2{
+	public void square(int a );
+	
+}
 		
+
